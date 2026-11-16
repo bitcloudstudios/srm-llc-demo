@@ -3,14 +3,20 @@
 @theme inline {
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system,
     BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: var(--font-bitter), Georgia, Cambria, "Times New Roman",
+    Times, serif;
 }
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 84px;
+  scroll-padding-top: 88px;
 }
 
 body {
   background-color: #ffffff;
-  color: #111827;
+  color: #1c1917;
+}
+
+.font-display {
+  font-family: var(--font-display);
 }
